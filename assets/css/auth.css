@@ -1,0 +1,127 @@
+.auth {
+  background: url('../imgs/background.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: #1f1f1f;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+}
+
+.auth__form__container {
+  margin: 1.5rem 0.5rem;
+}
+
+.auth__header {
+  font-size: 1.4rem;
+  line-height: 25px;
+  font-weight: 600;
+  color: #1f1f1f;
+  margin: 2rem 0;
+}
+
+/* Form Input Styling */
+.auth__form .form-group {
+  margin-bottom: 1.5rem;
+}
+
+.auth__form .form-control {
+  border: 1.0807px solid #46344e;
+  box-sizing: border-box;
+  border-radius: 5.40351px;
+  font-weight: 300;
+  font-size: 16.2105px;
+  line-height: 24px;
+  color: #46344e;
+}
+
+.auth__form .form__agreement {
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size: 14.2481px;
+  line-height: 17px;
+}
+
+.auth__form .form__link {
+  text-decoration: underline;
+  display: inline-block;
+  transition: all 0.3 ease;
+  color: #1f1f1f;
+}
+
+.auth__form .form__link:hover {
+  color: #968a9b;
+}
+
+.auth__form .form__button {
+  background: #faed26;
+  border-radius: 4.76231px;
+  margin: 0 auto 1.5rem;
+  padding: 0.5rem 2rem;
+  border: 0;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.auth__form .form__button:hover {
+  background: #46344e;
+  color: #faed26;
+}
+
+/* Media Query */
+/* Tablet */
+@media (min-width: 768px) {
+  .auth__form__container {
+    width: 600px;
+    margin: 1.5rem auto;
+  }
+
+  .auth__header {
+    font-size: 30px;
+    margin: 3rem auto;
+  }
+  .auth__form .form-group {
+    margin-bottom: 2rem;
+  }
+
+  .auth__form .form-control {
+    border: 1.0807px solid #46344e;
+    box-sizing: border-box;
+    border-radius: 5.40351px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 24px;
+    color: #46344e;
+  }
+
+  .auth__form .form__agreement {
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 425px) {
+  .auth__header {
+    font-size: 30px;
+    margin: 3rem auto;
+  }
+  .auth__form .form-group {
+    margin-bottom: 2rem;
+  }
+
+  .auth__form .form-control {
+    border: 1.0807px solid #46344e;
+    box-sizing: border-box;
+    border-radius: 5.40351px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 24px;
+    color: #46344e;
+  }
+
+  .auth__form .form__agreement {
+    line-height: 24px;
+  }
+}
