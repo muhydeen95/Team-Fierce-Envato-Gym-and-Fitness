@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+
+    <!-- Bootstrap 4 CDN -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Fonts -> Montserrat & Source Sans Pro -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Source+Sans+Pro:wght@300;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./css/master.css" />
+  </head>
+  <body>
+    <!-- Login Container -->
+    <div class="auth__form__container bg-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 mx-auto col-sm-10">
+            <h4 class="auth__header text-center text-uppercase">Login</h4>
+            <!-- Login Form -->
+            <form action="" class="auth__form">
+              <div class="form-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  name="email"
+                  id="email"
+                  placeholder="E-mail"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="password"
+                  class="form-control"
+                  name="password"
+                  id="password"
+                  placeholder="Password"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <p class="form__agreement text-right">
+                  <a href="#" class="form__link">Forgot Password?</a>
+                </p>
+              </div>
+              <div class="form-group text-center">
+                <button type="submit" class="form__button text-uppercase">
+                  Log in
+                </button>
+
+                <p>
+                  New here?
+                  <a class="form__link" href="./signup.html">Sign up instead</a>
+                </p>
+              </div>
+            </form>
+            <!-- Login Form Ends -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Login Container Ends -->
+  </body>
+</html>
